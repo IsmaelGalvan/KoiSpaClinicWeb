@@ -15,9 +15,9 @@ function toggleAnswer(element) {
 $(document).ready(function() {
     function checkWindowSize() {
         if ($(window).width() > 500) {
-            $('.servicios').hide();
+            $('.serviciobtn').hide();
         } else {
-            $('.servicios').show();
+            $('.serviciobtn').show();
         }
     }
 
