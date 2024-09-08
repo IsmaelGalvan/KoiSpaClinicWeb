@@ -12,8 +12,13 @@ body {
     padding: 100px 0;
   }*/
   
+  @font-face {
+    font-family: "lovera";
+    src: url(./font/Lovera.otf)
+    format('opentype');
+  }
   .services, .steps, .products, .best-sellers {
-    padding: 60px 0;
+    padding: 20px 0;
   }
   
   .services h2, .steps h2, .products h2, .best-sellers h2 {
@@ -21,7 +26,7 @@ body {
   }
   
   .services .row, .steps .row, .best-sellers .row {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .footer {
@@ -30,33 +35,42 @@ body {
   }
   
   .principal{
-    font-family: "Libre Baskerville", serif;
+    font-family: "lovera", sans-serif;
     text-align: center;
     width: 100%;
-    height: 400px;
+    /*height: 400px;*/
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fefae0;
+    color: #b97f5c;
     flex-direction: column;
     font-weight: bold;
-  }
+    margin-top:21px;
+  }  
 
   .descripcionbanner{
-    font-family: "Bowlby One", sans-serif;
+    font-family: "lovera", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 20%;
     margin-right: 20%;
+    color: #6a7c75;
   }
 
- .principal h1, h4{
+  .linea {
+    width: 50%; /* Ajusta el ancho de la línea según necesites */
+    border: none;
+    border-bottom: 2px solid #6a7c75; /* Color y grosor de la línea */
+    margin: 10px auto; /* Centra la línea y ajusta el margen */
+}
+
+ /*.principal h1, h4{
     text-shadow: 3px 1px 3px #A9B388;
     -webkit-text-stroke: 1px #5F6F52;
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
- } 
+ }*/
 
  .principal h4{
     margin-top: 35px;
@@ -66,11 +80,11 @@ body {
     font-size: 19px;
  }
 
-  .contenedor_img{
+  /*.contenedor_img{
     background-image: url(./imagenes/encabezado4.webp);
     background-size: cover;
     background-repeat: no-repeat;
-  }
+  }*/
 
 
   .valoracion{
@@ -323,7 +337,7 @@ footer i{
   }
 
   .principal h1{
-    font-size: 24px !important;
+    font-size: 95px !important;
   }
   
   .principal h4{
@@ -385,6 +399,24 @@ footer i{
     width: 100%;
     margin-top: 15px;
   }
+}*/
+
+.nav{
+  height: 60px;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  z-index: 1000; /* Mantiene el nav por encima del contenido */
+}
+
+section {
+  padding-top: 60px; /* Igual a la altura del nav */
+}
+
 
 
