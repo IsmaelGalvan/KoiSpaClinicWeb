@@ -354,10 +354,17 @@ footer i{
     box-shadow: 0 2px 4px rgba(0,0,0,.1); 
   }
 
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
   .image-gallery img {
-    width: 32%;
-    height: 70px;
-}
+    width: 30% !important;
+    height: 70px !important;
+  }
 
   .grupo_card {
     display: none;
