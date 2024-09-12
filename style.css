@@ -73,7 +73,7 @@ body {
  }*/
 
  .principal h4{
-    margin-top: 35px;
+    margin-top: 5px;
  } 
 
  .descripcion_servicios{
@@ -328,6 +328,16 @@ footer i{
 
 @media (max-width: 500px) {
 
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); 
+  }
+
   .grupo_card {
     display: none;
   }
@@ -337,16 +347,17 @@ footer i{
   }
 
   .principal h1{
-    font-size: 95px !important;
+    font-size: 35px !important;
+    padding: 0 10px;
   }
   
   .principal h4{
     font-size: 14px !important;
   }
 
-  .contenedor_img{
+  /*.contenedor_img{
     height: 300px !important;
-  }
+  }*/
 
   .header, .footer {
       text-align: center;
@@ -357,6 +368,10 @@ footer i{
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+
+  h5{
+    padding: 0 10px;
   }
   
   .nav a {
@@ -399,7 +414,7 @@ footer i{
     width: 100%;
     margin-top: 15px;
   }
-}*/
+}
 
 .nav{
   height: 60px;
