@@ -6,12 +6,24 @@ body {
     font-weight: bold;
   }
   
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+.image-gallery img {
+    width: 32%;
+    height: 230px;
+}
+  
   /*.hero {
     background: url('hero-background.jpg') no-repeat center center/cover;
     color: #fff;
     padding: 100px 0;
   }*/
-  
+ 
   @font-face {
     font-family: "lovera";
     src: url(./font/Lovera.otf)
@@ -22,7 +34,8 @@ body {
   }
   
   .services h2, .steps h2, .products h2, .best-sellers h2 {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .services .row, .steps .row, .best-sellers .row {
@@ -76,8 +89,11 @@ body {
     margin-top: 5px;
  } 
 
- .descripcion_servicios{
+ .descripcion_servicios a{
     font-size: 19px;
+    color: #b97f5c;
+    font-weight: bold;
+    text-decoration: underline;
  }
 
   /*.contenedor_img{
@@ -337,6 +353,11 @@ footer i{
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,.1); 
   }
+
+  .image-gallery img {
+    width: 32%;
+    height: 70px;
+}
 
   .grupo_card {
     display: none;
