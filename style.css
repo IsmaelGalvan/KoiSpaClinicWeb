@@ -89,7 +89,7 @@ body {
     margin-top: 5px;
  } 
 
- .descripcion_servicios a{
+ .descripcion_servicios {
     font-size: 19px;
     color: #b97f5c;
     font-weight: bold;
