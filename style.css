@@ -91,10 +91,15 @@ body {
 
  .descripcion_servicios {
     font-size: 19px;
-    color: #b97f5c;
-    font-weight: bold;
-    text-decoration: underline;
+    color: black;
  }
+
+ p .descripcion_servicios{
+  font-size: 19px;
+  color: #b97f5c;
+  font-weight: bold;
+  text-decoration: underline;
+ } 
 
   /*.contenedor_img{
     background-image: url(./imagenes/encabezado4.webp);
